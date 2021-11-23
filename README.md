@@ -36,3 +36,39 @@ três categorias principais:
 ####Exemplo: Observer.
 
 ---
+
+## Singleton
+
+---
+
+## Factory
+
+---
+
+## Facade
+
+---
+
+## Proxy
+
+---
+
+## Observer
+
+---
+
+## Command
+
+---
+
+## Template Method
+
+---
+
+## MVC (Model-View-Controller)
+
+---
+
+## State
+
+---
