@@ -13,23 +13,26 @@ na análise ou no desing e, conforme esperado, na fase de desenvolvimento, por c
 
 - São passíveis de personalização e, portanto, são úteis aos desenvolvedores;
 ---
-## Marvin architecture
-We are developing Marvin’s MVP, and for that, we don’t need a very complex architecture to solve the
-pains and needs that Marvin sets up to act at this stage.
+## Tipos de padrão de projeto:
 
-###The architecture of Marvin-MVP is as follows:
+No livro GoF sobre padrões de projetos, discute-se 23 padrões de projetos, e os classificam em 
+três categorias principais:
 
-- Automations manager: Understand the request and trigger the automation responsible for it, which can be:
-  - Palliative: A registered action to act in a specific scenario, fixing it;
+###Padrões de Criação:
+- Funcionam com base no modo como os objetos podem ser criados;
+- Isolam os detalhes da criação dos objetos;
+- O código é independente do tipo do objeto a ser criado;
+####Exemplo: Singleton.
 
-##Development environment commands
+###Padrões de Estruturais:
+- Determinam o design da estrutura de objetos e classes;
+- O foco está em simplificar a estrutura e identificar o relacionamento entre classes e objetos;
+- São centrados em heranças e composição de classes;
+####Exemplo: Adapter.
 
-To install a development environment:
-```console
-- pip install pipenv 
-```
+###Padrões Comportamentais:
+- Se preocupam com a intenção entre os objetos e suas responsabilidades;
+- Os objetos devem ser capazes de interagir e, mesmo assim, devem ter baixo acoplamento;
+####Exemplo: Observer.
 
-To validate the tests:
-```console
-- pytest
-```
+---
