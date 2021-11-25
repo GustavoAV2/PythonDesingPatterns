@@ -40,12 +40,21 @@ três categorias principais:
 ## Singleton
 
 Um dos padrões de projetos mais simples e conhecidos.
-O Singleton proporciona uma forma d eter um, e somente UM, objeto de determinado tipo,
+O Singleton proporciona uma forma de ter um, e somente UM, 
+objeto de determinado tipo,
 além de um ponto de acesso global a este objeto.
 
+Exemplo de código:
 ![img.png](images/singleton_img.png)`
 ### Onde usar Singleton?
+Singleton deve ser utilizado com cuidado, pois nem sempre é útil ou necessário ter 
+apenas uma instância de uma classe sendo compartilhada por toda a aplicação.
 
+Recomendo utilizar o Singleton:
+
+- Quando você precisar controlar a concorrência de acesso a recursos compartilhados;
+- Quando uma classe for utilizada com frequência por várias partes distintas do sistema, 
+e essa classe não gerencia nenhum estado da aplicação;
 ---
 
 ## Factory
