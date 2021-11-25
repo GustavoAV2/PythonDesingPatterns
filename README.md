@@ -45,7 +45,9 @@ objeto de determinado tipo,
 além de um ponto de acesso global a este objeto.
 
 Exemplo de código:
-![img.png](images/singleton_img.png)`
+
+![img.png](images/singleton_img.png)
+
 ### Onde usar Singleton?
 Singleton deve ser utilizado com cuidado, pois nem sempre é útil ou necessário ter 
 apenas uma instância de uma classe sendo compartilhada por toda a aplicação.
