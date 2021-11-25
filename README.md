@@ -18,22 +18,22 @@ na análise ou no desing e, conforme esperado, na fase de desenvolvimento, por c
 No livro GoF sobre padrões de projetos, discute-se 23 padrões de projetos, e os classificam em 
 três categorias principais:
 
-###Padrões de Criação:
+### Padrões de Criação:
 - Funcionam com base no modo como os objetos podem ser criados;
 - Isolam os detalhes da criação dos objetos;
 - O código é independente do tipo do objeto a ser criado;
-####Exemplo: Singleton.
+#### Exemplo: Singleton.
 
-###Padrões de Estruturais:
+### Padrões de Estruturais:
 - Determinam o design da estrutura de objetos e classes;
 - O foco está em simplificar a estrutura e identificar o relacionamento entre classes e objetos;
 - São centrados em heranças e composição de classes;
-####Exemplo: Adapter.
+#### Exemplo: Adapter.
 
-###Padrões Comportamentais:
+### Padrões Comportamentais:
 - Se preocupam com a intenção entre os objetos e suas responsabilidades;
 - Os objetos devem ser capazes de interagir e, mesmo assim, devem ter baixo acoplamento;
-####Exemplo: Observer.
+#### Exemplo: Observer.
 
 ---
 
