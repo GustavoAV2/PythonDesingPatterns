@@ -39,6 +39,13 @@ três categorias principais:
 
 ## Singleton
 
+Um dos padrões de projetos mais simples e conhecidos.
+O Singleton proporciona uma forma d eter um, e somente UM, objeto de determinado tipo,
+além de um ponto de acesso global a este objeto.
+
+![img.png](images/singleton_img.png)`
+### Onde usar Singleton?
+
 ---
 
 ## Factory
