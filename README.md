@@ -57,6 +57,9 @@ Recomendo utilizar o Singleton:
 - Quando você precisar controlar a concorrência de acesso a recursos compartilhados;
 - Quando uma classe for utilizada com frequência por várias partes distintas do sistema, 
 e essa classe não gerencia nenhum estado da aplicação;
+  
+Como em uma classe de Logging, por exemplo.
+
 ---
 
 ## Factory
