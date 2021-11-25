@@ -11,7 +11,5 @@ if __name__ == '__main__':
     obj_singleton1 = Singleton()
     obj_singleton2 = Singleton()
 
-    id(obj_singleton1)
-    # 1714923450224
-    id(obj_singleton2)
-    # 1714923450224
+    print(id(obj_singleton1))  # Mostrando local de memória
+    print(id(obj_singleton2))  # Mostrando local de memória
