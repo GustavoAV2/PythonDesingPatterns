@@ -4,7 +4,7 @@ from context.subsystems import Banda, Florist, Restaurant, PartyRoom
 
 class EventOrganizer:
     def __init__(self):
-        print("Event Organizer :: Iniciado o Gerenciamento do Evento!\n\n")
+        print("Event Organizer :: Iniciado o Gerenciamento do Evento!")
 
     @staticmethod
     def organize():
@@ -23,7 +23,7 @@ class EventOrganizer:
 
 class Client:
     def __init__(self):
-        print("Client :: Existente!\n\n")
+        print("Client :: Existente!")
 
     @staticmethod
     def to_hire():

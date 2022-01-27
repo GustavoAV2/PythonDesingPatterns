@@ -6,7 +6,7 @@ import time
 class PartyRoom:
     def __init__(self):
         self.available = True
-        print("Party Room :: Salão de festa contactado!\n\n")
+        print("Party Room :: Salão de festa contactado!")
 
     def schedule(self):
         if self.available:
@@ -18,7 +18,7 @@ class PartyRoom:
 # Subsistema 2
 class Florist:
     def __init__(self):
-        print("Florist :: Florista contratado!\n\n")
+        print("Florist :: Florista contratado!")
 
     @staticmethod
     def make_the_decoration():
@@ -29,7 +29,7 @@ class Florist:
 # Subsistema 3
 class Restaurant:
     def __init__(self):
-        print("Restaurant :: Comida para eventos!\n\n")
+        print("Restaurant :: Comida para eventos!")
 
     @staticmethod
     def prepare():
@@ -40,7 +40,7 @@ class Restaurant:
 # Subsistema 4
 class Banda:
     def __init__(self):
-        print("Banda :: Musicais para eventos!\n\n")
+        print("Banda :: Musicais para eventos!")
 
     @staticmethod
     def prepare_presentation():
