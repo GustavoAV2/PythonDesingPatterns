@@ -69,6 +69,8 @@ Como em uma classe de Logging, por exemplo.
 ## Facade
 
 ---
+É um padrão de projeto estrutural, ele oculta as complexidades da estrutura interna de um projeto oferecendo uma
+interface ao cliente para que ele possa acessar o sistema de forma simplificada.
 
 ## Proxy
 
