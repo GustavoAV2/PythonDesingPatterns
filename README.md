@@ -72,6 +72,13 @@ Como em uma classe de Logging, por exemplo.
 É um padrão de projeto estrutural, ele oculta as complexidades da estrutura interna de um projeto oferecendo uma
 interface ao cliente para que ele possa acessar o sistema de forma simplificada.
 
+
+Exemplo de código:
+
+![img.png](images/facade_img.png)
+
+### Onde usar o Facade?
+
 ## Proxy
 
 ---
