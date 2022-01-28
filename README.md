@@ -48,6 +48,9 @@ Exemplo de código:
 
 ![img.png](images/singleton_img.png)
 
+### Vantagens do Pattern
+
+
 ### Onde usar Singleton?
 Singleton deve ser utilizado com cuidado, pois nem sempre é útil ou necessário ter 
 apenas uma instância de uma classe sendo compartilhada por toda a aplicação.
@@ -70,14 +73,19 @@ Como em uma classe de Logging, por exemplo.
 
 ---
 É um padrão de projeto estrutural, ele oculta as complexidades da estrutura interna de um projeto oferecendo uma
-interface ao cliente para que ele possa acessar o sistema de forma simplificada.
-
+interface ao cliente para que ele possa acessar o sistema de forma simplificada, podemos simplificar a utilização de um subsistema complexo apenas implementando uma classe que fornece uma interface única e mais razoável
 
 Exemplo de código:
 
 ![img.png](images/facade_img.png)
 
+### Vantagens do Pattern
+
+O Padrão Facade nos permite desconectar a implementação do cliente de qualquer subsistema. Assim, se quiséssemos acrescentar novas funcionalidades no subsistema é necessário apenas alterar a Facade ao invés de alterar diversos pontos do sistema. Além disso, o padrão Facade simplifica uma interface tornando-a muito mais simples, unificando um conjunto de classes mais complexas que pertencem a um subsistema.
+
 ### Onde usar o Facade?
+
+O Padrão Facade é utilizado quando precisamos simplificar e unificar uma interface grande ou um conjunto complexo de interfaces. Uma das vantagens do padrão Facade é desconectar o cliente de um subsistema complexo. Um sistema pode ter diversos Facades simplificando diversos pontos do programa.
 
 ## Proxy
 
