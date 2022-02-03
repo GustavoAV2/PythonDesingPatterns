@@ -95,7 +95,8 @@ Exemplo de código:
 
 ### Vantagens do Pattern
 
-O Padrão Proxy nos permite...
+O Padrão Proxy é um sistema que serve de intermediário entre o solicitante(seeker), e o provedor(provider). O solicitante
+é quem faz a requisição, o provedor entrega os recursos em resposta à requisição.
 
 ### Onde usar o padrão Proxy?
 
@@ -105,7 +106,7 @@ O Padrão Proxy é utilizado quando precisamos...
 
 ---
 
-## Command
+## Command 
 
 ---
 
