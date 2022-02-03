@@ -91,6 +91,16 @@ O Padrão Facade é utilizado quando precisamos simplificar e unificar uma inter
 
 ---
 
+Exemplo de código:
+
+### Vantagens do Pattern
+
+O Padrão Proxy nos permite...
+
+### Onde usar o padrão Proxy?
+
+O Padrão Proxy é utilizado quando precisamos...
+
 ## Observer
 
 ---
