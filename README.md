@@ -106,6 +106,14 @@ O Padrão Proxy é utilizado quando precisamos...
 
 ---
 
+### Onde usar o padrão Observer?
+
+#### Exemplos de casos de uso:
+* Na implementação de um serviço de eventos em sistemas distribuídos;
+* Na implementação de um sistema de notícias;
+* No mercado de ações.
+
+
 ## Command 
 
 ---
