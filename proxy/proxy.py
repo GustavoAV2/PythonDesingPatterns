@@ -1,30 +1,67 @@
-class Actor:
+from abc import ABCMeta, abstractmethod
+
+
+# Interface
+class Wallet(metaclass=ABCMeta):
+
+    @abstractmethod
+    def pay(self):
+        pass
+
+
+class Bank(Wallet):
     def __init__(self):
-        self.busy = False
+        self.card = None
+        self.account = None
 
-    def available(self):
-        self.busy = False
-        print(f'{type(self).__name__} está disponível para atuação!')
+    def __get_account(self):
+        self.account = self.card
+        return self.account
 
-    def unavailable(self):
-        self.busy = True
-        print(f'{type(self).__name__} está ocupado em uma atuação!')
+    def __actual_value(self):
+        print(f"Banco:: Checando se a conta {self.__get_account()} tem saldo.")
+        return True
 
-    def get_status(self):
-        return self.busy
+    def set_card(self, card):
+        self.card = card
 
-
-class Agent:
-
-    @staticmethod
-    def to_work():
-        actor = Actor()
-        if actor.get_status():
-            actor.unavailable()
+    def pay(self):
+        if self.__actual_value():
+            print("Banco:: pagando o bar...")
+            return True
         else:
-            actor.available()
+            print("Banco:: Você não tem saldo suficiente!")
+            return False
 
 
-if __name__ == '__main__':
-    agent = Agent()
-    agent.to_work()
+# Proxy
+class DebitCard(Wallet):
+    def __init__(self):
+        self.bank = Bank()
+
+    def pay(self):
+        card = input('Proxy:: Informe o numero do cartão:')
+        self.bank.set_card(card)
+        return self.bank.pay()
+
+
+class Cliente:
+    def __init__(self):
+        print('Cliente:: Quero comprar!')
+        self.debit_card = DebitCard()
+        self.bought = False
+
+    def make_payment(self):
+        self.bought = self.debit_card.pay()
+
+    def __del__(self):
+        if self.bought:
+            print('Cliente:: Finalmente comprei!')
+        else:
+            print('Cliente:: Preciso de mais dinheiro')
+
+
+if __name__ == "__main__":
+    client = Cliente()
+    client.make_payment()
+
