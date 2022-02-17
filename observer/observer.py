@@ -3,7 +3,6 @@ from abc import ABCMeta, abstractmethod
 
 # Assuntos/Tópico
 class AgenciaNoticia:
-
     def __init__(self):
         self.__followers = []
         self.__last_news = []
